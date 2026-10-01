@@ -1,6 +1,6 @@
 # hypealert
 
-Discord bot that notifies you when a streamer goes live.
+Discord bot that monitors Whowatch streamers and sends notifications when they go live. Optional support for Kick streamers.
 
 ## Install
 
