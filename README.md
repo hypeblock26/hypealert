@@ -1,32 +1,33 @@
 # hypealert
 
-Bot de Discord que avisa cuando un streamer se pone en vivo.
+Discord bot that notifies you when a streamer goes live.
 
-## Instalar
+## Install
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-## Configurar
+## Configure
 
-Copia `.env.example` a `.env` y llena tus datos:
+Copy `.env.example` to `.env` and fill in your data:
 
-```
+```env
 BOT_TOKEN=
 CHANNEL_ID=
-WHOWATCH_STREAMERS=id|nombre|1
-KICK_STREAMERS=username|nombre|1
+WHOWATCH_STREAMERS=id|name|1
+KICK_STREAMERS=username|name|1
 ```
 
-El ultimo numero es si menciona @everyone o no (1 o 0). Si tienes mas de uno, sepáralos con coma.
+The last number determines whether it mentions @everyone or not (1 or 0). If you have more than one, separate them with commas.
 
-## Correr
+## Run
 
-```
+```bash
 python bot.py
 ```
 
-## Licencia
+## License
 
 MIT
+
