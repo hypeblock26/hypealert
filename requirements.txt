@@ -1,0 +1,5 @@
+discord.py
+requests
+curl_cffi
+flask
+python-dotenv
